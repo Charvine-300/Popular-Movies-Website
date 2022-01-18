@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&family=Ubuntu:wght@300;400&display=swap');
-
 html,
 body {
   padding: 0;
   margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -13,12 +13,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ubuntu', sans-serif;
-}
-
-p, a, button, input {
-  font-family: 'Overpass', sans-serif;
 }

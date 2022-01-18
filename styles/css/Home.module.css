@@ -1,0 +1,13 @@
+.first {
+  overflow: hidden;
+  position: relative;
+  background-color: #ff3d54;
+  border-bottom-left-radius: 50px;
+}
+
+.image {
+  z-index: 1;
+  position: absolute;
+  width: 200%;
+  height: 200%;
+}

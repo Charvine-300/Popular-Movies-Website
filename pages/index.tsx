@@ -32,7 +32,12 @@ const Home = ({ results }: HomeProps) => {
       <Head>
         <title> Netflix | Popular Movies </title>
         <meta name="description" content="A coallated list of the most popular movies on Netflix" />
-        <link rel="icon" href="/logo.svg" />
+        <link rel="icon" href="/netflixlogo.svg" />
+        <meta property="og:image" content="logo.svg" />
+        <meta property="og:type" content="website" />
+		    <meta property="og:title" content="List of Popular Movies" />
+        <meta property="og:url" content="https://popular-movies-blush.vercel.app/" />
+        <meta property="og:description" content="Listing of popular movies worldwide" />
       </Head>
 
       <main className={styles.main}>

@@ -1,9 +1,45 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans+Condensed:wght@300&display=swap');;
+
 body {
-  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(0, 0%, 13%) !important;
+}
+
+
+h1, h2, h3, h4, h5, h6  {
+  text-align: center;
+  font-family: 'Bebas Neue';
+}
+
+p, a, li, blockquote {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p {
+  margin: 13px 0px;
+}
+
+ul {
+  margin: 10px 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+h3 {
+  margin-bottom: 0px;
+}
+
+blockquote {
+  font-style: italic;
+  display: block;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 a {
@@ -11,6 +47,24 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+@media screen and (orientation: landscape) {
+  h1, h3, blockquote, p {
+    text-align: left;
+  }
+
+  p, li {
+    display: inline;
+  }
 }
+
+@media screen and (min-width: 768px) {
+  h1, h3, blockquote, p {
+    text-align: left;
+  }
+
+  p, li {
+    display: inline;
+  }
+}
+
+

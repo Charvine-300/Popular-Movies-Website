@@ -38,7 +38,7 @@ const Home = ({ results }: HomeProps) => {
 
       <main className={styles.main}>
         <div className={styles.banner}> 
-          <Image src={Banner} /> 
+          <Image alt="Banner" src={Banner} /> 
         </div>
         <Movies results={results} />
       </main>

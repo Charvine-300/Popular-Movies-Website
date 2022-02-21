@@ -85,12 +85,12 @@ const Details = ({ path }: DetailsProps) => {
           <div className={styles.info}>
             <div className={styles.box}>
               <div style={imageHolder} id={styles.left}> 
-                <Image src={`http://image.tmdb.org/t/p/w185${path.poster_path}`} width='200px' height='300px' />
+                <Image alt="Movie Poster" src={`http://image.tmdb.org/t/p/w185${path.poster_path}`} width='200px' height='300px' />
               </div>
             </div>
             <div className={styles.box}>
               <h1> {path.title} </h1>
-              <blockquote> "{path.tagline}" </blockquote>
+              <blockquote> &quot;{path.tagline}&quot; </blockquote>
               <p> {path.overview } </p>
               <h3> Production Companies: </h3>
               <ul>

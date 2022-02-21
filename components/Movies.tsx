@@ -64,10 +64,10 @@ const Movies = ({ results }: MoviesProps) => {
   return (
     <div className={styles.list}>
       <div className={styles.leftarrow} onClick={sliderScrollLeft}> 
-        <Image src={Left} width={25} height={25} />
+        <Image alt="Arrows" src={Left} width={25} height={25} />
       </div>
       <div className={styles.rightarrow} onClick={sliderScrollRight}>
-        <Image src={Right} width={25} height={25} />
+        <Image alt="Arrows" src={Right} width={25} height={25} />
       </div>
       <div className={styles.center} ref={sliders}>
         {results.map((mauve) => ( 

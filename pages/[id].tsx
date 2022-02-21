@@ -77,8 +77,6 @@ const Details = ({ path }: DetailsProps) => {
         <Head>
           <title> {path.title} |  Popular Movies </title>
           <meta name="description" content="A coallated list of the most popular movies on Netflix" />
-          <link rel="icon" href="/logo.svg" />
-          <link rel="apple-touch-icon" href="/logo.svg" />
         </Head>
  
         <div className={styles.main} id={styles.height}>

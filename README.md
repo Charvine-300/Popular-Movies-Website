@@ -11,5 +11,5 @@ Built with:
 - Mobile-first workflow
 
 View app live at:
-https://popular-movies.vercel.app
+https://popular-movies-blush.vercel.app/
 

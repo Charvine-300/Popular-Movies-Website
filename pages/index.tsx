@@ -33,7 +33,6 @@ const Home = ({ results }: HomeProps) => {
         <title> Netflix | Popular Movies </title>
         <meta name="description" content="A coallated list of the most popular movies on Netflix" />
         <link rel="icon" href="/logo.svg" />
-        <link rel="apple-touch-icon" href="/logo.svg" />
       </Head>
 
       <main className={styles.main}>

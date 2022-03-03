@@ -64,6 +64,11 @@ const Details = ({ path }: DetailsProps) => {
 
   return (
     <>
+      <Head>
+          <title> {path.title} |  Popular Movies </title>
+          <meta name="description" content="A coallated list of the most popular movies on Netflix" />
+          <link rel="icon" href="/nelflixlogo.svg" />
+      </Head>
       <div className={styles.holder}>
         <Image src={Banner} alt="Banner" height="30px" width="120px" />
         <Link href='/'>
@@ -74,11 +79,6 @@ const Details = ({ path }: DetailsProps) => {
       </div>
 
       <div className={styles.container}>
-        <Head>
-          <title> {path.title} |  Popular Movies </title>
-          <meta name="description" content="A coallated list of the most popular movies on Netflix" />
-        </Head>
- 
         <div className={styles.main} id={styles.height}>
           <div className={styles.info}>
             <div className={styles.box}>
